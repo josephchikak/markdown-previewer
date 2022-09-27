@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Commissioner:wght@100&family=EB+Garamond&family=Noto+Sans+Mono&family=Righteous&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Commissioner', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Righteous', cursive;
+    background: linear-gradient(45deg, rgb(132, 105, 105), rgb(23, 23, 88));
+    background-size: cover;
+    display: grid;
+    text-align: center;
+    min-height: 50vh;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    place-items: center;
+}
+
+#editor{
+    min-height: 200px;
+    min-width: 500px;
+}
+
+#preview{
+    padding: 2em;
+    background-color: white;
+    min-height: 500px;
+    min-width: 500px;
+    max-width: 100ch;
+    border: solid;
+}
+
+.editorHead{
+    height: 2em;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: rgb(29, 3, 3);
+    box-shadow:
+    3.4px 3.4px 2.7px rgba(0, 0, 0, 0.022),
+     8.7px 8.7px 6.9px rgba(0, 0, 0, 0.031),
+    17.7px 17.7px 14.2px rgba(0, 0, 0, 0.039),
+    36.5px 36.5px 29.2px rgba(0, 0, 0, 0.048),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+}
+
