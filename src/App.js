@@ -17,6 +17,8 @@ const initialState = `
 
 \`<div></div>\`
 
+> Let's go!
+
 Stars:
 \`\`\`
   Ronaldo
