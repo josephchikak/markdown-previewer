@@ -35,7 +35,7 @@ class App extends React.Component{
   this.state ={
       input: initialState
   }
-  // this.handleClick = this.handleClick.bind(this)
+
  }
 
 
